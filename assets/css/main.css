@@ -520,7 +520,7 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: #939598;
 		letter-spacing: 0.025em;
 	}
 
@@ -567,7 +567,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
-		color: inherit;
+		color: #ffffff;
 		letter-spacing: -0.0325em;
 	}
 
@@ -1473,7 +1473,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.05s;
 				-ms-transition-delay: 0.05s;
 				transition-delay: 0.05s;
-			}
+				}
 
 			.gallery article:nth-last-child(2n) {
 				-moz-transition-delay: 0.05s;
@@ -1809,17 +1809,18 @@ input, select, textarea {
 			}
 
 			.gallery.inactive article.from-top {
-				-moz-transform: translateY(-7em);
-				-webkit-transform: translateY(-7em);
-				-ms-transform: translateY(-7em);
-				transform: translateY(-7em);
+				-moz-transform: translateY(-30em);
+				-webkit-transform: translateY(-30em);
+				-ms-transform: translateY(-30em);
+				transform: translateY(-30em);
+				
 			}
 
 			.gallery.inactive article.from-bottom {
-				-moz-transform: translateY(7em);
-				-webkit-transform: translateY(7em);
-				-ms-transform: translateY(7em);
-				transform: translateY(7em);
+				-moz-transform: translateY(14em);
+				-webkit-transform: translateY(14em);
+				-ms-transform: translateY(14em);
+				transform: translateY(14em);
 			}
 
 
